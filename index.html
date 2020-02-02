@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Table JS</title>
+  </head>
+  <body>
+    <div id="">
+      <!-- toolbox -->
+      <table id="toolbox">
+        <tbody>
+          <tr>
+            <td>
+              <input
+                type="button"
+                value="Merge"
+                class="button"
+                onclick="redips.merge()"
+                title="Merge marked table cells horizontally and verically"
+              />
+            </td>
+            <td>
+              <input
+                type="button"
+                value="Split"
+                class="button"
+                onclick="redips.split()"
+                title="Split marked table cell horizontally"
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- main table -->
+      <table id="mainTable">
+        <thead>
+          <tr>
+            <td>Column 1</td>
+            <td>Column 2</td>
+            <td>Column 3</td>
+            <td>Column 4</td>
+            <td>Column 5</td>
+            <td>Column 6</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <script src="table_lib.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
